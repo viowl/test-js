@@ -1,7 +1,6 @@
-const pricePerItem = 2000;
-
-const productName = "Dior";
-
-console.log(productName);
-
-console.log(pricePerItem);
+function getNameLength(name) {
+    const message = `Name ${name} is ${console.log(getNameLength.length)} characters long`; // Change this line
+  
+    return message;
+  }
+  
