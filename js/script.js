@@ -1,3 +1,11 @@
-for (let i = 10; i < 1000000; i += 47) {
-  console.log(i);
-}
+function calculateEngravingPrice(message, pricePerWord) {
+    
+    const words = message.split(" ");
+    const wordsCount = words.length;
+    const totalPrice = wordsCount * pricePerWord;
+    return totalPrice;
+    
+   
+    }
+   
+ 
