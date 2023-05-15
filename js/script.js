@@ -5,17 +5,17 @@
 //   console.log(fruit);
 // }
 
-const start = 6;
-const end = 27;
-let number;
+// const start = 6;
+// const end = 27;
+// let number;
 
-for (let i = start; i < end; i += 1) {
-  if (i % 5 === 0) {
-    number = i;
-  break;
-  }
-}
-console.log(number)
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//   break;
+//   }
+// }
+// console.log(number)
 
 //TODO: 1 ===================================
 // Якщо змінна a дорівнює 10, виведіть 'Вірно', інакше виведіть 'Невірно'.
@@ -285,3 +285,16 @@ console.log(number)
 
 // const arr7 = [1, 4, 6, 'color', 324, 232, 'list', 11, 9, 'dream', 34, 0, -30];
 // const arr8 = [6, 'dream', -30, 10, 9, 1, 324, 34, 'color', 4, 232, 0, 'list'];
+console.log(document);
+
+const body = document.body;
+console.log(body);
+
+const list = body.firstElementChild;
+console.log(list);
+
+const firstListItem = list.firstElementChild;
+console.log(firstListItem);
+
+const listItems = list.children;
+console.log(listItems);
